@@ -1,0 +1,45 @@
+<html><head>
+  <SCRIPT src="./web-files/dtjava.js"></SCRIPT>
+<script>
+    function launchApplication(jnlpfile) {
+        dtjava.launch(            {
+                url : 'DBS_semestralni_prace.jnlp',
+                jnlp_content : 'PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPGpubHAgc3BlYz0iMS4wIiB4bWxuczpqZng9Imh0dHA6Ly9qYXZhZnguY29tIiBocmVmPSJEQlNfc2VtZXN0cmFsbmlfcHJhY2Uuam5scCI+CiAgPGluZm9ybWF0aW9uPgogICAgPHRpdGxlPkRCU19zZW1lc3RyYWxuaV9wcmFjZTwvdGl0bGU+CiAgICA8dmVuZG9yPmx1a2Fza29yaW5lazwvdmVuZG9yPgogICAgPGRlc2NyaXB0aW9uPm51bGw8L2Rlc2NyaXB0aW9uPgogICAgPG9mZmxpbmUtYWxsb3dlZC8+CiAgPC9pbmZvcm1hdGlvbj4KICA8cmVzb3VyY2VzPgogICAgPGoyc2UgdmVyc2lvbj0iMS42KyIgaHJlZj0iaHR0cDovL2phdmEuc3VuLmNvbS9wcm9kdWN0cy9hdXRvZGwvajJzZSIvPgogICAgPGphciBocmVmPSJEQlNfc2VtZXN0cmFsbmlfcHJhY2UuamFyIiBzaXplPSIxMzkzNDYiIGRvd25sb2FkPSJlYWdlciIgLz4KICAgIDxqYXIgaHJlZj0ibGliL21zc3FsLWpkYmMtNy40LjEuanJlOC5qYXIiIHNpemU9IjEyMDk2NTkiIGRvd25sb2FkPSJlYWdlciIgLz4KICAgIDxqYXIgaHJlZj0ibGliL3BkZmJveC1hcHAtMi4wLjQuamFyIiBzaXplPSI3OTg1MjcwIiBkb3dubG9hZD0iZWFnZXIiIC8+CiAgICA8amFyIGhyZWY9ImxpYi90ZXh0VG9QREYuamFyIiBzaXplPSIyMjY1NjY4IiBkb3dubG9hZD0iZWFnZXIiIC8+CiAgPC9yZXNvdXJjZXM+CiAgPGFwcGxldC1kZXNjICB3aWR0aD0iODAwIiBoZWlnaHQ9IjYwMCIgbWFpbi1jbGFzcz0iY29tLmphdmFmeC5tYWluLk5vSmF2YUZYRmFsbGJhY2siICBuYW1lPSJEQlNfc2VtZXN0cmFsbmlfcHJhY2UiID4KICAgIDxwYXJhbSBuYW1lPSJyZXF1aXJlZEZYVmVyc2lvbiIgdmFsdWU9IjguMCsiLz4KICA8L2FwcGxldC1kZXNjPgogIDxqZng6amF2YWZ4LWRlc2MgIHdpZHRoPSI4MDAiIGhlaWdodD0iNjAwIiBtYWluLWNsYXNzPSJndWkuTWFpbiIgIG5hbWU9IkRCU19zZW1lc3RyYWxuaV9wcmFjZSIgLz4KICA8dXBkYXRlIGNoZWNrPSJhbHdheXMiLz4KPC9qbmxwPgo='
+            },
+            {
+                javafx : '8.0+'
+            },
+            {}
+        );
+        return false;
+    }
+</script>
+
+<script>
+    function javafxEmbedgui() {
+        dtjava.embed(
+            {
+                id : 'gui',
+                url : 'DBS_semestralni_prace.jnlp',
+                placeholder : 'javafx-app-placeholder',
+                width : '800',
+                height : '600',
+                jnlp_content : 'PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPGpubHAgc3BlYz0iMS4wIiB4bWxuczpqZng9Imh0dHA6Ly9qYXZhZnguY29tIiBocmVmPSJEQlNfc2VtZXN0cmFsbmlfcHJhY2Uuam5scCI+CiAgPGluZm9ybWF0aW9uPgogICAgPHRpdGxlPkRCU19zZW1lc3RyYWxuaV9wcmFjZTwvdGl0bGU+CiAgICA8dmVuZG9yPmx1a2Fza29yaW5lazwvdmVuZG9yPgogICAgPGRlc2NyaXB0aW9uPm51bGw8L2Rlc2NyaXB0aW9uPgogICAgPG9mZmxpbmUtYWxsb3dlZC8+CiAgPC9pbmZvcm1hdGlvbj4KICA8cmVzb3VyY2VzPgogICAgPGoyc2UgdmVyc2lvbj0iMS42KyIgaHJlZj0iaHR0cDovL2phdmEuc3VuLmNvbS9wcm9kdWN0cy9hdXRvZGwvajJzZSIvPgogICAgPGphciBocmVmPSJEQlNfc2VtZXN0cmFsbmlfcHJhY2UuamFyIiBzaXplPSIxMzkzNDYiIGRvd25sb2FkPSJlYWdlciIgLz4KICAgIDxqYXIgaHJlZj0ibGliL21zc3FsLWpkYmMtNy40LjEuanJlOC5qYXIiIHNpemU9IjEyMDk2NTkiIGRvd25sb2FkPSJlYWdlciIgLz4KICAgIDxqYXIgaHJlZj0ibGliL3BkZmJveC1hcHAtMi4wLjQuamFyIiBzaXplPSI3OTg1MjcwIiBkb3dubG9hZD0iZWFnZXIiIC8+CiAgICA8amFyIGhyZWY9ImxpYi90ZXh0VG9QREYuamFyIiBzaXplPSIyMjY1NjY4IiBkb3dubG9hZD0iZWFnZXIiIC8+CiAgPC9yZXNvdXJjZXM+CiAgPGFwcGxldC1kZXNjICB3aWR0aD0iODAwIiBoZWlnaHQ9IjYwMCIgbWFpbi1jbGFzcz0iY29tLmphdmFmeC5tYWluLk5vSmF2YUZYRmFsbGJhY2siICBuYW1lPSJEQlNfc2VtZXN0cmFsbmlfcHJhY2UiID4KICAgIDxwYXJhbSBuYW1lPSJyZXF1aXJlZEZYVmVyc2lvbiIgdmFsdWU9IjguMCsiLz4KICA8L2FwcGxldC1kZXNjPgogIDxqZng6amF2YWZ4LWRlc2MgIHdpZHRoPSI4MDAiIGhlaWdodD0iNjAwIiBtYWluLWNsYXNzPSJndWkuTWFpbiIgIG5hbWU9IkRCU19zZW1lc3RyYWxuaV9wcmFjZSIgLz4KICA8dXBkYXRlIGNoZWNrPSJhbHdheXMiLz4KPC9qbmxwPgo='
+            },
+            {
+                javafx : '8.0+'
+            },
+            {}
+        );
+    }
+    <!-- Embed FX application into web page once page is loaded -->
+    dtjava.addOnloadCallback(javafxEmbedgui);
+</script>
+
+</head><body>
+<h2>Test page for <b>DBS_semestralni_prace</b></h2>
+  <b>Webstart:</b> <a href='DBS_semestralni_prace.jnlp' onclick="return launchApplication('DBS_semestralni_prace.jnlp');">click to launch this app as webstart</a><br><hr><br>
+
+  <!-- Applet will be inserted here -->
+  <div id='javafx-app-placeholder'></div>
+</body></html>

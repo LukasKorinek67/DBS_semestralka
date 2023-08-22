@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="800.0" styleClass="mainFxmlClass" stylesheets="@student.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.DisplayPracticeMessageStudentController">
+   <children>
+      <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="20.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <padding>
+            <Insets bottom="50.0" top="30.0" />
+         </padding>
+         <children>
+            <HBox prefHeight="20.0" prefWidth="200.0">
+               <children>
+                  <Label text="Přihlášený student: " />
+                  <Label fx:id="loggedStudent" text="Student Student" />
+               </children>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+            </HBox>
+            <Label fx:id="title" text="Písemná zpráva z praxe">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <TextArea fx:id="message" maxHeight="250.0" maxWidth="1.7976931348623157E308" minHeight="200.0" minWidth="400.0" prefHeight="250.0" prefWidth="400.0">
+               <VBox.margin>
+                  <Insets left="30.0" right="30.0" />
+               </VBox.margin>
+            </TextArea>
+            <Hyperlink fx:id="backLink" onAction="#goBack" text="Zpět" />
+         </children>
+      </VBox>
+      <HBox alignment="BOTTOM_RIGHT" layoutX="40.0" layoutY="40.0" prefHeight="40.0" prefWidth="350.0" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <Label text="DBS - Semestrální práce - Böhm, Kořínek, Rubeš" />
+         </children>
+         <padding>
+            <Insets bottom="10.0" right="10.0" />
+         </padding>
+      </HBox>
+   </children>
+</AnchorPane>

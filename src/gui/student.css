@@ -1,0 +1,64 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+    -fx-background-color: #cccccc;
+}
+
+#loggedStudent {
+    -fx-font-family: "Arial";
+    -fx-font-weight: 900;
+}
+
+.button {
+    -fx-background-color: 
+        rgba(0,0,0,0.08),
+        linear-gradient(#9a9a9a, #909090),
+        linear-gradient(white 0%, #f3f3f3 50%, #ececec 51%, #f2f2f2 100%);
+    -fx-background-insets: 0 0 -1 0,0,1;
+    -fx-background-radius: 5,5,4;
+    -fx-padding: 3 30 3 30;
+    -fx-text-fill: #242d35;
+    -fx-font-size: 14px;
+}
+
+.button:focused, .button:hover {
+    -fx-background-color:
+        rgba(255, 255, 255, 0.08),
+        rgba(0, 0, 0, 0.8),
+        /*#090a0c,*/#cccccc,
+        
+        linear-gradient(#cccccc 0%, #cccccc 20%, #cccccc 100%),
+        linear-gradient(#cccccc, #cccccc),
+        radial-gradient(center 50% 0%, radius 100%, rgba(255,255,255,255),
+        rgba(255,255,255,0));
+}
+
+.text-field {
+    -fx-skin: "com.sun.javafx.scene.control.skin.TextFieldSkin";
+    -fx-background-color: -fx-shadow-highlight-color, -fx-text-box-border, -fx-control-inner-background;
+    -fx-background-insets: 0, 1, 2;
+    -fx-background-radius: 3, 2, 2;
+    -fx-padding: 3 5 3 5;
+    -fx-prompt-text-fill: derive(-fx-control-inner-background,-30%);
+    -fx-cursor: text;
+}
+
+.text-field :focused {
+    -fx-background-color: -fx-focus-color, -fx-text-box-border, -fx-control-inner-background;
+    -fx-background-insets: -0.4, 1, 2;
+    -fx-background-radius: 3.4, 2, 2;
+}
+
+.hyperlink {
+    -fx-text-fill: black;
+}
+
+.hyperlink:hover {
+    -fx-underline: true;
+}
+
+#errorMessage {
+    -fx-text-fill: #cc0000;
+}

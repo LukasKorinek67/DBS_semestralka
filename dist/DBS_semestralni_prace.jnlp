@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="DBS_semestralni_prace.jnlp">
+  <information>
+    <title>DBS_semestralni_prace</title>
+    <vendor>lukaskorinek</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="DBS_semestralni_prace.jar" size="139346" download="eager" />
+    <jar href="lib/mssql-jdbc-7.4.1.jre8.jar" size="1209659" download="eager" />
+    <jar href="lib/pdfbox-app-2.0.4.jar" size="7985270" download="eager" />
+    <jar href="lib/textToPDF.jar" size="2265668" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="DBS_semestralni_prace" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="gui.Main"  name="DBS_semestralni_prace" />
+  <update check="always"/>
+</jnlp>
