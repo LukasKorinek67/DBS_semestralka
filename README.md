@@ -1,6 +1,7 @@
 # DBS - semestrální práce
 
 Lukáš Kořínek, Lukáš Böhm, Filip Rubeš
+
 *2019*
 
 - Aplikace pro zveřejňování praxí pro studenty. Vytvořena v Javě, grafické rozhraní pomocí JavaFX Scene Builderu.
